@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:table_calendar/table_calendar.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:table_calendar/table_calendar.dart';
 import 'package:virtual_diary/providers/user_diaries.dart';
 import 'package:virtual_diary/widgets/diary_item.dart';
 
@@ -56,8 +56,8 @@ class _CalendarScreenState extends ConsumerState<CalendarScreen> {
         if (dots[i].day + 1 == dots[i + 1].day ||
             dots[i].day == 31 && dots[i + 1].day == 1 ||
             dots[i].day == 30 && dots[i + 1].day == 1 ||
-            dots[i].day == 29 && dots[i + 1].day == 1 ||
-            dots[i].day == 28 && dots[i + 1].day == 1) {
+            dots[i].month == 2 && dots[i].day == 29 && dots[i + 1].day == 1 ||
+            dots[i].month == 2 && dots[i].day == 28 && dots[i + 1].day == 1) {
           maxCurrent += 1;
         } else {
           maxCurrent = 1;
@@ -69,8 +69,12 @@ class _CalendarScreenState extends ConsumerState<CalendarScreen> {
         if (dots[i].day - 1 == dots[i - 1].day ||
             dots[i].day == 1 && dots[i - 1].day == 31 ||
             dots[i].day == 1 && dots[i - 1].day == 30 ||
-            dots[i].day == 1 && dots[i - 1].day == 29 ||
-            dots[i].day == 1 && dots[i - 1].day == 28) {
+            dots[i].day == 1 &&
+                dots[i - 1].day == 29 &&
+                dots[i - 1].month == 2 ||
+            dots[i].day == 1 &&
+                dots[i - 1].day == 28 &&
+                dots[i - 1].month == 2) {
           actualCurrent += 1;
         } else {
           break;

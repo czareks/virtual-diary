@@ -16,7 +16,14 @@ class App extends StatelessWidget {
       theme: ThemeData().copyWith(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromARGB(255, 235, 201, 133)),
+          seedColor: const Color.fromARGB(255, 235, 201, 133),
+        ),
+        timePickerTheme: const TimePickerThemeData(
+          hourMinuteTextStyle: TextStyle(
+            fontSize: 55,
+            height: 1.3,
+          ),
+        ),
       ),
       home: const NavigationScreen(),
     );
