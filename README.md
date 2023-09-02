@@ -4,15 +4,16 @@
 A virtual diary application. Users can add diaries, photos, and tag their moods. You can add an option to remind you to enter diaries regularly.
 
 ## Gallery
-<img src="app%20photo/1.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/2.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/3.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/4.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/5.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/6.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/7.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/8.png" alt="Tekst zastępczy" width="300" height="200">
-<img src="app%20photo/9.png" alt="Tekst zastępczy" width="300" height="200">
+<img src="app%20photo/1.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/2.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/3.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/4.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/5.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/6.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/7.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/8.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+<img src="app%20photo/9.png" alt="Tekst zastępczy" height="300" style="height:300px;float:left;">
+
 
 ## Getting Started
 
