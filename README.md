@@ -7,9 +7,11 @@ A virtual diary application. Users can add diaries, photos, and tag their moods.
 | ![Zdjęcie 1](app%20photo/1.png) | ![Zdjęcie 2](app%20photo/2.png) | ![Zdjęcie 3](app%20photo/3.png) |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
 | Start screen                        | Add diary screen                        | Read diary screen                        |
+
 | ![Zdjęcie 4](app%20photo/4.png) | ![Zdjęcie 5](app%20photo/5.png) | ![Zdjęcie 6](app%20photo/6.png) |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
-| Open settings                        | Filters screen                        | Calendar screen with current day and see the date entry                        |
+| Open settings                        | Filters screen                        | Calendar screen with current day and see the date entry |
+
 | ![Zdjęcie 7](app%20photo/7.png) | ![Zdjęcie 8](app%20photo/8.png) | ![Zdjęcie 9](app%20photo/9.png) |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
 | Calendar with another check day                        | Add notification                        | Add notification                        |
